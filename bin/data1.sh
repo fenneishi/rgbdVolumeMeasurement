@@ -1,0 +1,1 @@
+./InfiniTAM /home/qilong/Desktop/project/InfiniTAM-master/data/yifang/Data/data1/calib.txt /home/qilong/Desktop/project/InfiniTAM-master/data/yifang/Data/data1/Frames/%05i.ppm /home/qilong/Desktop/project/InfiniTAM-master/data/yifang/Data/data1/Frames/%05i.pgm 
