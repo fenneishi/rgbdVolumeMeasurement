@@ -10,15 +10,20 @@ using namespace std;
 namespace Confi
 {
     // the path of the project
-    static string projectPath("/home/qilong/Desktop/project/rgbdVolumeMeasurement/");
+    // 使用绝对路径
+    // static string projectPath("/home/qilong/Desktop/project/rgbdVolumeMeasurement/");
+    // static string dataPath("/home/qilong/Desktop/data/rgbdVolumeMeasurement/");
+    // 使用相对路径
+    static string projectPath("../");
+    static string dataPath("../../data/rgbdVolumeMeasurement/data/");
     // the path of some key dir
-    const  static string dirPath_bin=projectPath+"./data/bin/";
-    const  static string dirPath_frames=projectPath+"./data/frames/";
-    const  static string dirPath_stl=projectPath+"./data/stl/";
-    const  static string dirPath_pcd=projectPath+"./data/pcd/";
-    const  static string dirPath_res=projectPath+"./data/res/";
-    const  static string dirPath_pcd_ground=projectPath+"./data/pcd/ground/";
-    const  static string dirPath_pcd_object=projectPath+"./data/pcd/object/";
+    const  static string dirPath_bin=dataPath+"bin/";
+    const  static string dirPath_frames=dataPath+"frames/";
+    const  static string dirPath_stl=dataPath+"stl/";
+    const  static string dirPath_pcd=dataPath+"pcd/";
+    const  static string dirPath_res=dataPath+"res/";
+    const  static string dirPath_pcd_ground=dataPath+"pcd/ground/";
+    const  static string dirPath_pcd_object=dataPath+"pcd/object/";
     // the name of some key file
     const  static string fileName_camParaBinary="camera_para.bin";
     const  static string fileName_rgbdBinary="color_depth_bundle.bin";
